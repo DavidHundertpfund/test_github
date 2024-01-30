@@ -14,49 +14,27 @@ class Group {
         shapes = new ArrayList<>();
 
     }
- 
-    /**
 
-     * Adds a shape to the group.
-
-     *
-
-     * @param shape The shape to be added.
-
-     */
-
+/*
+ * Adds a Shape
+ */
     public void addShape(Shape shape) {
-
         shapes.add(shape);
 
     }
  
-    /**
-
-     * Removes a shape from the group.
-
-     *
-
-     * @param shape The shape to be removed.
-
-     */
-
+/*
+ * Removes a Shape
+ */
     public void removeShape(Shape shape) {
-
         shapes.remove(shape);
 
     }
  
-    /**
-
-     * Calculates the total area of all shapes in the group.
-
-     *
-
-     * @return The total area of all shapes in the group.
-
-     */
-
+   
+/*
+ * calculates the total Area of a Shape
+ */
     public double calculateTotalArea() {
 
         double totalArea = 0.0;
@@ -71,16 +49,10 @@ class Group {
 
     }
  
-    /**
-
-     * Calculates the total circumference of all shapes in the group.
-
-     *
-
-     * @return The total circumference of all shapes in the group.
-
-     */
-
+    
+/*
+ * calculates the total circumference of shape
+ */
     public double calculateTotalCircumference() {
 
         double totalCircumference = 0.0;
@@ -95,16 +67,10 @@ class Group {
 
     }
  
-    /**
-
-     * Finds the largest shape in the group based on the area.
-
-     *
-
-     * @return The largest shape in the group.
-
-     */
-
+    
+/*
+ * searches for the largest Shape
+ */
     public Shape findLargestShape() {
 
         if (shapes.isEmpty()) {
@@ -135,12 +101,10 @@ class Group {
 
     }
  
-    /**
 
-     * Prints information about all shapes in the group to the console.
-
-     */
-
+/*
+ * prints all Shapes
+ */
     public void printAllShapes() {
 
         for (Shape shape : shapes) {

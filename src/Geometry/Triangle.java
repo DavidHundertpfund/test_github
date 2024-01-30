@@ -14,8 +14,7 @@ class Triangle extends Shape {
  
     @Override
     double calculateArea() {
-        // Implement the area calculation for a triangle (e.g., using Heron's formula)
-        // This implementation is just a placeholder.
+        
         return 0.0;
     }
  
@@ -25,6 +24,3 @@ class Triangle extends Shape {
     }
 }
  
-/**
-* Represents a group of shapes.
-*/

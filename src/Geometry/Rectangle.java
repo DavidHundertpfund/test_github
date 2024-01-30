@@ -21,6 +21,4 @@ class Rectangle extends Shape {
     }
 }
  
-/**
-* Represents a circle.
-*/
+
