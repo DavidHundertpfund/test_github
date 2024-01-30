@@ -10,12 +10,16 @@ class Rectangle extends Shape {
         this.width = width;
     }
  
-    @Override
+    /*
+     * calculates Area of the Rectangle
+     */
     double calculateArea() {
         return length * width;
     }
  
-    @Override
+    /*
+     * calculates Circumference of the Rectangle
+     */
     double calculateCircumference() {
         return 2 * (length + width);
     }

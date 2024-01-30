@@ -13,12 +13,18 @@ class Triangle extends Shape {
     }
  
     @Override
+    /*
+     * calculates Area of the Triangle
+     */
     double calculateArea() {
         
         return 0.0;
     }
  
     @Override
+    /*
+     * calculates Circumference of the Triangle
+     */
     double calculateCircumference() {
         return side1 + side2 + side3;
     }

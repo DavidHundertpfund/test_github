@@ -11,11 +11,17 @@ class Circle extends Shape {
    }
 
    @Override
+   /*
+    * calculates Area of the Circle
+    */
    double calculateArea() {
        return Math.PI * Math.pow(radius, 2);
    }
 
    @Override
+   /*
+    * calculates Circumference of the Circle
+    */
    double calculateCircumference() {
        return 2 * Math.PI * radius;
    }
